@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "oinky-exe"
+version = "0.1.0-pre"
+description = "Oink!!"
+authors = ["Oinky <oinky@oinkdom.xyz>"]
+readme = "README.md"
+packages = [{include = "oinky_exe"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+py-cord = "^2.4.1"
+cassandra-driver = "^3.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
